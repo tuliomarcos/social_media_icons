@@ -1,0 +1,205 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body {
+	background: rgb(236, 236, 236);
+}
+div#space {
+	position: relative;
+	width: 600px;
+	height: 450px;
+	background: white;
+	left: 50%;
+	bottom:50%;
+	transform: translate(-50%, 20%);	
+	border-radius: 5px;
+}
+div#main {
+	position: relative;
+	width: 550px;
+	height: 400px;
+	background: rgb(236, 236, 236);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 3px;
+	/*padding: 0px 30px;*/
+}
+div.icons {
+	padding: 40px 55px;
+}
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 21px;
+	color: rgb(183, 183, 183);
+}
+h2 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 13px;	
+	color: rgb(183, 183, 183);
+}
+button {
+	display: inline-block;
+	border: none;
+	width: 60px;
+	height: 60px;
+	color: white;
+	padding: 10px 10px;
+	margin: 6px 0px 6px 8px;
+	transition: .5s;
+}
+button#facebook:hover {
+	background: rgb(59, 89, 152);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#twitter:hover {
+	background: rgb(85, 172, 238);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#instagram:hover {
+	background: rgb(255, 2, 125);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#github:hover {
+	background: #000000;
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#dropbox:hover {
+	background: rgb(85, 172, 238);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#youtube:hover {
+	background: rgb(255, 0, 0);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#yahoo:hover {
+	background: rgb(208, 22, 230);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#google:hover {
+	background: rgb(221, 75, 57);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#amazon:hover {
+	background: rgb(255, 245, 63);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#tumblr:hover {
+	background: rgb(55, 70, 93);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#whatsapp:hover {
+	background: rgb(0, 235, 0);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#skype:hover {
+	background: rgb(85, 172, 238);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#xbox:hover {
+	background: rgb(0, 235, 0);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#playstation:hover {
+	background: rgb(59, 89, 152);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#steam:hover {
+	background: #000000;
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#html5:hover {
+	background: rgb(249, 108, 15);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#language-javascript:hover {
+	background: rgb(249, 108, 15);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#apple:hover {
+	background: rgb(101, 101, 101);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+
+
+
+
+
+
+
+
+button#facebook {
+	background: rgb(59, 89, 152);
+	padding: 12px 12px;
+	box-shadow: 0px 0px 15px black;
+}
+button#twitter {
+	background: rgb(85, 172, 238);
+}
+button#instagram {
+	background: rgb(255, 2, 125);
+}
+button#github {
+	background: #000000;
+}
+button#dropbox {
+	background: rgb(85, 172, 238);
+}
+button#youtube {
+	background: rgb(255, 0, 0);
+}
+button#yahoo {
+	background: rgb(208, 22, 230);
+}
+button#google {
+	background: rgb(221, 75, 57);
+}
+button#amazon {
+	background: rgb(255, 245, 63);
+}
+button#tumblr {
+	background: rgb(55, 70, 93);
+}
+button#whatsapp {
+	background: rgb(0, 235, 0);
+}
+button#skype {
+	background: rgb(85, 172, 238);
+}
+button#xbox {
+	background: rgb(0, 235, 0);
+}
+button#playstation {
+	background: rgb(59, 89, 152);
+}
+button#steam {
+	background: #000000;
+}
+button#html5 {
+	background: rgb(249, 108, 15);
+}
+button#language-javascript {
+	background: rgb(249, 108, 15);
+}
+button#apple {
+	background: rgb(101, 101, 101);
+}
+
+
