@@ -1,18 +1,15 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Orbitron');
 body {
 	background: rgb(236, 236, 236);
 }
+
 div#space {
-	position: relative;
 	width: 600px;
 	height: 450px;
 	background: white;
-	left: 50%;
-	bottom:50%;
-	transform: translate(-50%, 20%);	
+	margin: 0 auto;	
 	border-radius: 5px;
 }
+
 div#main {
 	position: relative;
 	width: 550px;
@@ -24,19 +21,23 @@ div#main {
 	border-radius: 3px;
 	/*padding: 0px 30px;*/
 }
+
 div.icons {
 	padding: 40px 55px;
 }
+
 h1 {
 	font-family: 'Orbitron', sans-serif;
 	font-size: 21px;
 	color: rgb(183, 183, 183);
 }
+
 h2 {
 	font-family: 'Orbitron', sans-serif;
 	font-size: 13px;	
 	color: rgb(183, 183, 183);
 }
+
 button {
 	display: inline-block;
 	border: none;
@@ -47,66 +48,36 @@ button {
 	margin: 6px 0px 6px 8px;
 	transition: .5s;
 }
+
 button:hover {
 	transform: scale(1.1) translateZ(0);
 	box-shadow: 0px 0px 15px black;
 	border-radius: 4px;
 }
+
 button * {
 	transform: translateZ(0);
 }
-button#facebook {
-	background: rgb(59, 89, 152);
-	padding: 12px 12px;
+
+button i {
+	color: #fff;
 }
-button#twitter {
-	background: rgb(85, 172, 238);
-}
-button#instagram {
-	background: rgb(255, 2, 125);
-}
-button#github {
-	background: #000000;
-}
-button#dropbox {
-	background: rgb(85, 172, 238);
-}
-button#youtube {
-	background: rgb(255, 0, 0);
-}
-button#yahoo {
-	background: rgb(208, 22, 230);
-}
-button#google {
-	background: rgb(221, 75, 57);
-}
-button#amazon {
-	background: rgb(255, 245, 63);
-}
-button#tumblr {
-	background: rgb(55, 70, 93);
-}
-button#whatsapp {
-	background: rgb(0, 235, 0);
-}
-button#skype {
-	background: rgb(85, 172, 238);
-}
-button#xbox {
-	background: rgb(0, 235, 0);
-}
-button#playstation {
-	background: rgb(59, 89, 152);
-}
-button#steam {
-	background: #000000;
-}
-button#html5 {
-	background: rgb(249, 108, 15);
-}
-button#language-javascript {
-	background: rgb(249, 108, 15);
-}
-button#apple {
-	background: rgb(101, 101, 101);
-}
+
+button#facebook {background: rgb(59, 89, 152)}
+button#twitter {background: rgb(85, 172, 238)}
+button#instagram {background: rgb(255, 2, 125)}
+button#github {background: #000000}
+button#dropbox {background: rgb(85, 172, 238)}
+button#youtube {background: rgb(255, 0, 0)}
+button#yahoo {background: rgb(208, 22, 230)}
+button#google {background: rgb(221, 75, 57)}
+button#amazon {background: rgb(255, 245, 63)}
+button#tumblr {background: rgb(55, 70, 93)}
+button#whatsapp {background: rgb(0, 235, 0)}
+button#skype {background: rgb(85, 172, 238)}
+button#xbox {background: rgb(0, 235, 0)}
+button#playstation {background: rgb(59, 89, 152)}
+button#steam {background: #000000}
+button#html5 {background: rgb(249, 108, 15)}
+button#language-javascript {background: rgb(249, 108, 15)}
+button#apple {background: rgb(101, 101, 101)}
