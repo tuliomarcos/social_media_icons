@@ -47,108 +47,17 @@ button {
 	margin: 6px 0px 6px 8px;
 	transition: .5s;
 }
-button#facebook:hover {
-	background: rgb(59, 89, 152);
-	padding: 12px 12px;
+button:hover {
+	transform: scale(1.1) translateZ(0);
 	box-shadow: 0px 0px 15px black;
+	border-radius: 4px;
 }
-button#twitter:hover {
-	background: rgb(85, 172, 238);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
+button * {
+	transform: translateZ(0);
 }
-button#instagram:hover {
-	background: rgb(255, 2, 125);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#github:hover {
-	background: #000000;
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#dropbox:hover {
-	background: rgb(85, 172, 238);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#youtube:hover {
-	background: rgb(255, 0, 0);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#yahoo:hover {
-	background: rgb(208, 22, 230);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#google:hover {
-	background: rgb(221, 75, 57);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#amazon:hover {
-	background: rgb(255, 245, 63);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#tumblr:hover {
-	background: rgb(55, 70, 93);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#whatsapp:hover {
-	background: rgb(0, 235, 0);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#skype:hover {
-	background: rgb(85, 172, 238);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#xbox:hover {
-	background: rgb(0, 235, 0);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#playstation:hover {
-	background: rgb(59, 89, 152);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#steam:hover {
-	background: #000000;
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#html5:hover {
-	background: rgb(249, 108, 15);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#language-javascript:hover {
-	background: rgb(249, 108, 15);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-button#apple:hover {
-	background: rgb(101, 101, 101);
-	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
-}
-
-
-
-
-
-
-
-
 button#facebook {
 	background: rgb(59, 89, 152);
 	padding: 12px 12px;
-	box-shadow: 0px 0px 15px black;
 }
 button#twitter {
 	background: rgb(85, 172, 238);
@@ -201,5 +110,3 @@ button#language-javascript {
 button#apple {
 	background: rgb(101, 101, 101);
 }
-
-
